@@ -1,0 +1,368 @@
+body{
+    color:#9C9C9C;
+    
+}
+#home{
+    background-color: #080808;
+}
+ #main-nav{
+    padding: 0;
+    
+}
+.justify-content-center{
+   gap: 60px; 
+}
+.navbar-nav{
+    width: 70%;
+    background-color: #1B1B1B;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #9C9C9C;
+    font-size: 20px;
+    letter-spacing: 0.14px;
+    padding: 15px 0px 20px 0px;
+    
+}
+section{
+    height: 100vh;
+}
+
+
+.col{
+    margin-top: 10%;
+}
+#col1{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+#col1 #text1 h3{
+    color: #ffffff;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+#text1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#text1 .lead{
+    width: 450px;
+    text-wrap: wrap;
+}
+.btn{
+    letter-spacing: 3px;
+    font-weight: 600;
+    display: flex;
+    padding: 21px 100px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+}
+.btn:hover{
+    background: #3F8E00;
+}
+#himage{
+    width: 350px;
+    border-radius: 50%;
+    padding-top: 35px;
+
+}
+.workedwith{
+    padding-top: 70px;
+}
+#workedwithhead{
+    padding-left: 20%;
+}
+
+
+/* CASE STUDIES PAGE */
+#case-studies{
+    height: 200vh;
+    background-color: #fff;
+}
+.cs-body{
+    margin: auto;
+    width: 70%;
+}
+.cs-head{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;  
+   flex-direction: column;
+}
+.cs-head .card-title{
+    align-self: center;
+}
+.card-title{
+    font-weight: 800;
+    color: #080808;
+}
+.cs-head .card-text{
+    text-align: center;
+    width: 50%;
+    align-self: center
+}
+/* .img-fluid{
+    height: ;
+
+} */
+.card{
+    border: 0;
+  
+}
+.row.g-0{
+ display: flex;
+ margin-bottom: 4rem;
+}
+.col-md-8, .col-md-4{
+flex: 1;
+}
+
+/* TESTIMONIALS PAGE */
+#testimonials{
+    background-color: #080808;
+    height: 100vh;
+}
+#testimonials .card{
+    background-color: #080808;
+}
+.test-body{
+    margin: auto;
+    width: 70%;
+    /* margin-left: 130px; */
+    
+}
+
+.test-head{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    display: flex;  
+   flex-direction: column;
+   
+}
+.test-head .card-title{
+    align-self: center;
+}
+.test-head .card-title{
+    font-weight: 800;
+    color: #fff;
+}
+.test-head .card-text{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+.test-card{
+    /* border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    
+    */
+     margin-bottom: 1.5rem;
+     padding-left: 11px;
+     
+}
+.test-card-content{
+    padding-left: 15px;
+    padding-top: 12px;
+    height: 212px;
+   
+}
+.test-card-content.card.border{
+     border-radius: 12px;
+    border-color: #ff80403f;
+}
+.clientname{
+    display: flex;
+    padding: 20px;
+    padding-top: 15px ;
+}
+.clientname img{
+    width: 60px;
+    border-radius: 50%;
+}
+.clientname p{ 
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+
+/* RECENT WORKS */
+.rw-body{
+    margin: auto;
+    width: 70%;
+    /* margin-left: 130px; */
+    
+}
+
+.rw-head{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    display: flex;  
+   flex-direction: column;
+   
+}
+.rw-head .card-title{
+    align-self: center;
+}
+.rw-head .card-title{
+    font-weight: 800;
+    color: #080808;
+}
+.rw-head .card-text{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+.rw-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 7px;
+}
+.rw-card-1, .rw-card-2{
+    /* flex: 1; */
+    width: 445px;
+    height: 494px;
+    align-content: flex-start;
+    
+}
+.rw-card-1{
+    padding-right: 20px;
+}
+.rw-card-2{
+    padding-left: 20px;
+}
+.rw-card-container img{
+    border-radius: 10px;
+}
+.rw-card-container .card-body{
+    padding-left: 0;
+}
+.rw-card-container .btn{
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+    width: 40%;
+}
+.btn:hover{
+    background: #3F8E00;
+}
+
+/* GET IN TOUCH */
+#getintouch{
+    background-color: #080808;
+}
+#getintouch .card{
+    background-color: #080808;
+}
+.git-body{
+    margin: auto;
+    width: 70%;
+
+}
+.git-head{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    display: flex;  
+   flex-direction: column;
+   
+}
+.git-head .card-title{
+    align-self: center;
+}
+.git-head .card-title{
+    font-weight: 800;
+    color: #fff;
+}
+.git-head .card-text{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formcontainer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+}
+.formcontainer li {
+   list-style: none;
+   display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+   padding-bottom: 10px;
+}
+.formcontainer li #name{
+    width: 500px;
+    height: 45px;
+    font: 20px sans-serif;
+    border-radius: 7px;
+    border: 2px;
+}
+.formcontainer li #name::placeholder{
+    padding-left:10px ;
+}
+.the-rest{
+    width: 500px;
+    height: 42px;
+    font: 20px sans-serif;
+    border: 2px;
+    border-radius: 7px;
+}
+.the-rest::placeholder{
+    padding-left: 10px;
+}
+#pdetails{
+    width: 500px ;
+    height: 150px;
+    font: 15px sans-serif;
+    border: 2px;
+    border-radius: 7px;
+}
+#pdetails::placeholder{
+    padding-left: 10px;
+}
+.formbutton{
+    background-color: rgb(98, 224, 13);
+    color: #ffffff;
+    cursor: pointer;
+}
+.formcontainer a.btn{
+    display: flex;
+width: 500px;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.bottombar{
+    background-color: #1B1B1B;
+    margin-bottom: 0;
+}
+.bottombar p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1em;
+}
